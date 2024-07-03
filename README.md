@@ -84,7 +84,6 @@ Escolha uma funcionalidade para testar:
 2. Aparelho Telefônico
 3. Navegador na Internet
 0. Sair
-> 1
 
 Testando Reprodutor Musical:
 Tocando música no iPhone
