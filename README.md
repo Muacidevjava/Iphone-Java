@@ -29,7 +29,7 @@ Métodos disponíveis:
 Interface: `NavegadorWeb`
 Classe: `IPhoneNavegadorWeb`
 
-Métodos disponíveis:
+##Métodos disponíveis:
 - `abrirPagina(String url)`: Abre a página web especificada pela URL.
 - `atualizarPagina()`: Atualiza a página web atual.
 - `adicionarFavorito(String url)`: Adiciona a página web atual aos favoritos.
@@ -102,5 +102,5 @@ Pressione Enter para continuar...
 Faixa anterior no iPhone
 Pressione Enter para continuar...
 
-Escolha a funcionalidade desejada e siga as instruções para testar cada uma delas.
+# Escolha a funcionalidade desejada e siga as instruções para testar cada uma delas.
 
