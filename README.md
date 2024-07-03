@@ -37,24 +37,42 @@ Classe: `IPhoneNavegadorWeb`
 - `avancar()`: Navega para a próxima página.
 
 ## Estrutura do Projeto
-ProjetoIPhone/
-│
-├── src/
-│ ├── musica/
-│ │ ├── ReprodutorMusical.java
-│ │ └── IPhoneReprodutorMusical.java
-│ │
-│ ├── telefone/
-│ │ ├── Telefone.java
-│ │ └── IPhoneTelefone.java
-│ │
-│ └── web/
-│ ├── NavegadorWeb.java
-│ └── IPhoneNavegadorWeb.java
-│
-├── src/Main.java
-├── .gitignore
-└── README.md
+-------------------------------------
+|             iPhone                 |
+-------------------------------------
+| + tocarMusica(): void              |
+| + fazerLigacao(numero: String): void|
+| + navegarInternet(url: String): void|
+-------------------------------------
+                   ^
+                   |
+-------------------------------------
+|           Interface               |
+-------------------------------------
+| + tocar(): void                   |
+-------------------------------------
+             /     \
+            /       \
+-------------------------------------
+|  ReprodutorMusicalImpl            |
+-------------------------------------
+| + tocar(): void                   |
+-------------------------------------
+             /     \
+            /       \
+-------------------------------------
+|  AparelhoTelefonicoImpl           |
+-------------------------------------
+| + fazerLigacao(numero: String): void|
+-------------------------------------
+             /     \
+            /       \
+-------------------------------------
+|  NavegadorInternetImpl            |
+-------------------------------------
+| + navegarInternet(url: String): void|
+-------------------------------------
+
 
 
 
