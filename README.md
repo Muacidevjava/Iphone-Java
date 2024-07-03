@@ -62,7 +62,7 @@ ProjetoIPhone/
 
 1. **Clone o repositório:**
 
-   git clone https://github.com/seu-usuario/ProjetoIPhone.git
+   https://github.com/Muacidevjava/Iphone-Java.git
    cd ProjetoIPhone
    
 2.**Compile os arquivos Java: **
