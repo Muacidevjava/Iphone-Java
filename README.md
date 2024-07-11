@@ -36,45 +36,6 @@ Classe: `IPhoneNavegadorWeb`
 - `voltar()`: Navega para a página anterior.
 - `avancar()`: Navega para a próxima página.
 
-## Estrutura do Projeto
--------------------------------------
-|             iPhone                 |
--------------------------------------
-| + tocarMusica(): void              |
-| + fazerLigacao(numero: String): void|
-| + navegarInternet(url: String): void|
--------------------------------------
-                   ^
-                   |
--------------------------------------
-|           Interface               |
--------------------------------------
-| + tocar(): void                   |
--------------------------------------
-             /     \
-            /       \
--------------------------------------
-|  ReprodutorMusicalImpl            |
--------------------------------------
-| + tocar(): void                   |
--------------------------------------
-             /     \
-            /       \
--------------------------------------
-|  AparelhoTelefonicoImpl           |
--------------------------------------
-| + fazerLigacao(numero: String): void|
--------------------------------------
-             /     \
-            /       \
--------------------------------------
-|  NavegadorInternetImpl            |
--------------------------------------
-| + navegarInternet(url: String): void|
--------------------------------------
-
-
-
 
 ## Como Executar
 
